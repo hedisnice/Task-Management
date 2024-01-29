@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500&family=Poppins:wght@300;400;500&display=swap");
+* {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+}
+.container {
+  background: #fff;
+  padding: 1.5rem;
+  margin: 5rem auto;
+  max-width: 35rem;
+  border: 2px solid rgba(117, 116, 116, 0.2);
+  border-radius: 0.5rem;
+}
+.light {
+  background: white;
+  color: #000;
+  transition: all 500ms;
+}
+.dark {
+  background: #182430;
+  color: white;
+  transition: all 500ms;
+}
+
+footer {
+  text-align: center;
+}
